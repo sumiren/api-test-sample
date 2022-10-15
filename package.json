@@ -1,0 +1,22 @@
+{
+  "name": "apitest-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "fastify": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.0",
+    "typescript": "^4.8.4",
+    "vitest": "^0.24.3"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node app/server.js",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
