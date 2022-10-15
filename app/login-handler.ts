@@ -13,7 +13,7 @@ export const handler = async (request: FastifyRequest<{ Querystring: IQuerystrin
     return
   }
 
-  return {message: "you've logged in!"}
+  return {message: "you've logged in! hi!"}
 }
 
 export const validateStatically = (request: FastifyRequest<{ Querystring: IQuerystring }>) => {
