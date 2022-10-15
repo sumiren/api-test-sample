@@ -14,7 +14,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "start": "node app/server.js",
-    "test": "vitest"
+    "test:api": "vitest"
   },
   "keywords": [],
   "author": "",
