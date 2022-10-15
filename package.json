@@ -13,8 +13,8 @@
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "start": "node app/server.js",
-    "test:api": "vitest"
+    "start": "npm run build && node app/server.js",
+    "test:api": "npm run build && vitest"
   },
   "keywords": [],
   "author": "",
