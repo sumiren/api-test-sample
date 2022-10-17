@@ -1,5 +1,5 @@
-import { loginHandler } from "./login-handler"
 import fastify  from 'fastify'
+import { app } from "./app"
 
 const main = async () => {
   const server = fastify({
@@ -8,7 +8,7 @@ const main = async () => {
     }
   })
 
-  await server.register(loginHandler)
+  await server.register(app)
 
   server.listen({port: 8080}, (err, address) => {
     if (err) {
